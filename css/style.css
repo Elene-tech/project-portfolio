@@ -1,7 +1,44 @@
 /*font-family: 'Poppins', sans-serif*/
 
-h1 {
-  color: green;
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  text-align: center;
+}
+h1 {
+  padding-top: 50px;
+  font-size: 48px;
+  color: black;
+}
+h3 {
+  padding-top: 20px;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+/* ---------------------------------------------------------------------------- */
+
+header {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+.header_container {
+  width: 100%;
 }
