@@ -6,6 +6,7 @@
 }
 a {
   text-decoration: none;
+  color: gray;
 }
 ul,
 ol,
@@ -86,4 +87,22 @@ header {
   padding: 20px 15px;
   color: white;
   text-decoration: none;
+}
+.pages {
+  display: flex;
+  justify-content: center;
+}
+.page1,
+.page2,
+.page3 {
+  margin-right: 20px;
+}
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(244, 239, 239);
+  color: white;
+  text-align: center;
 }
