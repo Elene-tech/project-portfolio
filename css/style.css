@@ -98,11 +98,30 @@ header {
   margin-right: 20px;
 }
 .footer {
-  position: relative;
+  display: flex;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(244, 239, 239);
+  height: auto;
+  background-color: rgb(239, 241, 245);
   color: white;
-  text-align: center;
+}
+.icons {
+  display: flex;
+  position: relative;
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  margin-right: 20px;
+  color: gray;
+  font-size: larger;
+}
+.follow {
+  color: gray;
+  margin-right: 60px;
+}
+.bg-light {
+  background-color: rgb(239, 241, 245) !important;
 }
