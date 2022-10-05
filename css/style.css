@@ -145,3 +145,8 @@ header {
 .nav-link {
   color: gray;
 }
+.nav-link:hover {
+  text-decoration: underline;
+  font-weight: 500;
+  color: #6c63ff;
+}
