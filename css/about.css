@@ -55,7 +55,9 @@ h3 {
   font-weight: 500;
   color: #6c63ff;
 }
-
+.col-md-6 {
+  margin-left: 50px;
+}
 footer {
   display: flex;
   left: 0;
@@ -89,4 +91,13 @@ footer {
 .intro {
   font-size: 40px;
   color: #5e2885;
+}
+.logo {
+  width: 55px;
+  margin-left: 80px;
+}
+@media (min-width: 393px) {
+  .logo {
+    margin-left: 5px;
+  }
 }
