@@ -122,3 +122,11 @@ p {
 .telegram {
   font-size: 34px;
 }
+.mailme {
+  color: blue;
+}
+.mailme:hover {
+  text-decoration: underline;
+  font-weight: 500;
+  color: #ad104f;
+}
