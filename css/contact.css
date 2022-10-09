@@ -32,7 +32,9 @@ h3 {
 h1 {
   padding-top: 50px;
   font-size: 48px;
+  font-weight: 700;
   color: black;
+  padding-bottom: 50px;
 }
 h3 {
   padding-top: 20px;
@@ -98,11 +100,25 @@ footer {
 }
 .footer {
   display: flex;
-  position: fixed;
+  position: absolute;
+  bottom: 0px;
   left: 0;
-  bottom: 0;
   width: 100%;
   height: auto;
   background-color: rgb(239, 241, 245);
   color: white;
+}
+.col-md-12 {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+p {
+  text-align: center;
+  padding-top: 30px;
+}
+.email,
+.tel,
+.telegram {
+  font-size: 34px;
 }
