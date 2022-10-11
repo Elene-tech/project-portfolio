@@ -84,6 +84,10 @@ header {
   box-shadow: var(--box-shadow);
   text-decoration: none;
 }
+.logo {
+  width: 55px;
+  margin-left: 80px;
+}
 .mountain {
   text-align: left;
 }

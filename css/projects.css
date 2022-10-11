@@ -36,14 +36,9 @@ h3 {
 .nav-link {
   color: gray;
 }
-.pages {
-  display: flex;
-  justify-content: center;
-}
-.page1,
-.page2,
-.page3 {
-  margin-right: 20px;
+.logo {
+  width: 55px;
+  margin-left: 80px;
 }
 
 .footer {
