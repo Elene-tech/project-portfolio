@@ -179,4 +179,7 @@ header {
   .nav-item {
     font-size: 14px;
   }
+  .logo {
+    display: none;
+  }
 }
