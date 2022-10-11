@@ -163,3 +163,29 @@ h1 {
   font-weight: 500;
   color: #6c63ff;
 }
+.navbar-brand {
+  margin-left: 73px;
+}
+
+@media (min-width: 360px) {
+  ul.nav {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+.nav-item {
+  font-size: 18px;
+}
+@media (max-width: 1220px) {
+  .nav-item {
+    font-size: 15px;
+  }
+  .navbar-brand {
+    margin-left: 14px;
+  }
+}
+@media (min-width: 360px) {
+  .nav-item {
+    font-size: 14px;
+  }
+}
