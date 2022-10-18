@@ -124,16 +124,19 @@ h3 {
   .logo {
     margin-left: 5px;
   }
-  .photo-image{
-    width:auto;
-    height:50vh;
+  .photo-image {
+    width: auto;
+    height: 50vh;
   }
-  .description{
+  .description {
     padding-top: 5px;
   }
 }
 .navbar-brand {
   margin-left: 73px;
+}
+.nav-item {
+  font-size: 18px;
 }
 
 @media (min-width: 360px) {
@@ -142,9 +145,7 @@ h3 {
     margin-left: 0px;
   }
 }
-.nav-item {
-  font-size: 18px;
-}
+
 @media (max-width: 900px) {
   .nav-item {
     font-size: 15px;
@@ -152,10 +153,9 @@ h3 {
   .navbar-brand {
     margin-left: 14px;
   }
-  .logo {
-    display:none;
-  }
-@media (max-width: 280px) {
+}
+
+@media (min-width: 260px) {
   .nav-item {
     font-size: 10px;
   }
@@ -163,6 +163,7 @@ h3 {
     display: none;
   }
 }
+
 @media (min-width: 1024px) {
   .footer {
     height: auto;

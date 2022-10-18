@@ -96,11 +96,6 @@ footer {
   width: 55px;
   margin-left: 80px;
 }
-@media (min-width: 393px) {
-  .logo {
-    margin-left: 5px;
-  }
-}
 .footer {
   display: flex;
   position: absolute;
@@ -155,7 +150,7 @@ p {
     margin-left: 14px;
   }
 }
-@media (min-width: 20px) {
+@media (max-width: 260px) {
   .nav-item {
     font-size: 14px;
   }
