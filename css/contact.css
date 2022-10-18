@@ -155,11 +155,11 @@ p {
     margin-left: 14px;
   }
 }
-@media (min-width: 360px) {
+@media (min-width: 20px) {
   .nav-item {
     font-size: 14px;
   }
   .logo {
     display: none;
   }
-}
+  
