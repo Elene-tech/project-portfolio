@@ -35,16 +35,6 @@ h3 {
   text-align: center;
 }
 
-.bg-light {
-  background-color: rgb(239, 241, 245) !important;
-}
-.nav-link {
-  color: gray;
-}
-.logo {
-  width: 55px;
-  margin-left: 80px;
-}
 h1 {
   margin-top: 50px;
   font-size: 48px;
@@ -52,10 +42,90 @@ h1 {
   padding-bottom: 25px;
 }
 .wrapper {
+  min-height: 100%;
+  overflow: hidden;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 20px;
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+  height: 75px;
+  background-color: rgb(239, 241, 245);
+  line-height: 75px;
+  padding: 0px 60px;
+}
+nav .logo {
+  float: left;
+}
+nav .logo p {
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: gray;
+  text-transform: uppercase;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(68, 68, 74);
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 20px;
+}
+nav ul li a:hover {
+  color: #6c63ff;
+}
+nav ul .active {
+  color: purple;
+}
+
+.checkbtn {
+  color: #9691e3;
+  font-size: 25px;
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+#check {
+  display: none;
+}
+@media screen and (max-width: 540px) {
+  nav {
+    padding: 0 50px;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+  nav .logo p {
+    font-size: 25px;
+  }
+  nav ul {
+    width: 100%;
+    height: 50vh;
+    background-color: #9691e3;
+    position: fixed;
+    top: 75px;
+    left: -100%;
+    text-align: center;
+    transition: 0.4s;
+    z-index: 1;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0px;
+    line-height: 20px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
 }
 .mountains_img,
 .yogurt_img,
@@ -112,42 +182,6 @@ h1 {
   box-shadow: 0px 0px 11px 5px #6c63ff;
 }
 
-.nav-link:hover {
-  text-decoration: underline;
-  font-weight: 500;
-  color: #6c63ff;
-}
-.navbar-brand {
-  margin-left: 73px;
-}
-
-@media (min-width: 360px) {
-  ul.nav {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-}
-.nav-item {
-  font-size: 18px;
-}
-@media (max-width: 1220px) {
-  .nav-item {
-    font-size: 15px;
-  }
-  .navbar-brand {
-    margin-left: 14px;
-  }
-}
-@media (min-width: 360px) {
-  .nav-item {
-    font-size: 14px;
-  }
-}
-@media (max-width: 1024px) {
-  .logo {
-    display: none;
-  }
-}
 .footer {
   display: flex;
   left: 0;
