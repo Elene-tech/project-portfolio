@@ -180,6 +180,7 @@ nav ul .active {
 }
 .photo-image {
   box-shadow: 10px 10px 10px 10px #dcdbf3;
+  max-width: 500px;
 }
 .intro {
   font-size: 40px;
