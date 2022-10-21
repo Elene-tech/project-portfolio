@@ -172,7 +172,7 @@ nav ul .active {
   position: relative;
   text-align: center;
 }
-p {
+.container > p {
   text-align: center;
   padding-top: 30px;
 }

@@ -175,6 +175,10 @@ nav ul .active {
   color: white;
   border-radius: 5px;
 }
+.card .btn:hover {
+  background: #e8e8ec;
+  color: rgb(92, 85, 85);
+}
 
 .card:hover {
   background: #f32ace;
